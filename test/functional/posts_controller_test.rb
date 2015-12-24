@@ -14,6 +14,10 @@ class PostsControllerTest < ActionController::TestCase
   end
 
 =begin
+  test "should redirect to globality" do
+    assert_redirected_to ...
+  end
+
   test "should get new" do
     get :new
     assert_response :success
