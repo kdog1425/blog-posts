@@ -23,7 +23,7 @@ See Gemfile
 * How to run tests
 rake test
 
-I put in one functional test, and a few other testing ideas in the commenting below it.
+I put in one functional test, and a few other testing ideas for an app with a bit more functianality in the commenting below it.
 
 ### Who do I talk to? ###
 khenprice@gmail.com
