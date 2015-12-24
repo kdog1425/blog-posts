@@ -7,7 +7,7 @@ See it live [here](https://kp-globality.herokuapp.com/).
 
 ### Specifications ###
 
-** I followed the instructions below, other than the 'details_url' - I simply overlooked it while working on this and used a static link in the rendered view, since this is just an excersize, and I'm pretty sure the 'thumbnail_url' demonstartes all that is needed. I also altered the json names a bit (i.e. 'description' instead of 'blurb' etc.), I wouldn't do that in the real world of course. I work and design apis and am definitely aware of the importance of naming and precision when it comes to naming. I simply have to stop working on this excersize at this point. Thank you for understanding! **
+** I followed the instructions below, other than the 'details_url' - I simply overlooked it while working on this and used a static link in the rendered view, since this is just an exercise, and I'm pretty sure the 'thumbnail_url' demonstartes all that is needed. I also altered the json names a bit (i.e. 'description' instead of 'blurb' etc.), I wouldn't do that in the real world of course (unless there is good reason to). I work and design apis and am definitely aware of the importance of naming, and precision when it comes to naming. I simply have to stop working on this exercise at this point. Thank you for understanding! **
 
  The idea is to get a full-stack demo application going, with any technology you’d like to use.
 Deliverable should be runnable, e.g can be a deployed Heroku app or a codebase on GitHub, with a README showing how to run this. Extra points for unit-tests, code formatting/conventions, and comments around the code.
