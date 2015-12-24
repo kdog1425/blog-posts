@@ -15,7 +15,7 @@ $(function(){
       itemSelector : '.box',     // selector for all items you'll retrieve
       loading: {
           finishedMsg: 'No more pages to load.',
-          img: 'http://i.imgur.com/6RMhx.gif'
+          img: 'assets/loading.gif'
         }
       },
       // trigger Masonry as a callback
