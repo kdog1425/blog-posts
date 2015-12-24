@@ -1,10 +1,6 @@
 # README #
 
-### What is this repository for? ###
-
-* Quick summary
-
-Code exercise for Globality by Khen Price
+### Code exercise for Globality by Khen Price ###
 
 See it live [here](https://kp-globality.herokuapp.com/).
 
@@ -19,38 +15,44 @@ You're building a fashion discovery platform. You'd like to start off with a wor
  Build a working implementation, using any combination of backend/frontend technologies and frameworks of your choosing. The API should take a page parameter and deliver pages of items with randomized content, each board item having the following basic structure:
 
 {
+
   "title": "<TITLE>",
+
    "blurb": "<BLURB>",
+
    "author": "<AUTHOR>",
+
    "thumbnail_url": "<URL>",
+
    "details_url": "<URL>"
+
 }
 
 You can design the UI to your liking. at the very least each board item should feature the thumbnail image (you can hardcode a single image file to be used for all items for the sake of this excercise), the post title, and the blurb field, truncated to display 32 words and featuring a "Read more" link using the "details_url" field. For this exercise, The backend should have 20 items per page and deliver at least 3 pages of data. 
 
 ### How do I get set up? ###
 
-* Summary of set up *
+** Summary of set up **
 
-    bundle
-    rake db:migrate
-    rails s
+        bundle # install packages
+        rake db:migrate # build db
+        rails s # run local server
 
-visit localhost:3000 in browser
+then, if all went well, visit localhost:3000 in browser.
 
-* Configuration *
+** Configuration ** 
 
 See 'config' folder
 
-* Dependencies *
+** Dependencies **
 
 See Gemfile
 
-* How to run tests *
+** How to run tests **
 
     rake test
 
-I put in one functional test, and a few other testing ideas for an app with a bit more functianality in the commenting below it.
+Note: I put in one functional test, and a few other testing ideas for an app with a bit more functianality in the commenting below it.
 
 ### Who do I talk to? ###
 khenprice@gmail.com
