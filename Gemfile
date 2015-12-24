@@ -1,7 +1,6 @@
 source 'http://rubygems.org'
 
 gem 'rails', '4.2.3'
-gem 'sqlite3'
 gem 'will_paginate', '~> 3.0.6'
 gem 'sass-rails'
 gem 'compass-rails', '2.0.4'
