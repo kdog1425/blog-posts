@@ -10,14 +10,10 @@ class PostsControllerTest < ActionController::TestCase
     assert_response :success
     assert_not_nil assigns(:posts)
     assert_select '.box', 3
-    assert_select 'h2', "MyString"
+    assert_select 'h2', /Title(.*)/
   end
-
+  
 =begin
-  test "should redirect to globality" do
-    assert_redirected_to ...
-  end
-
   test "should get new" do
     get :new
     assert_response :success
