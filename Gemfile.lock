@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     actionmailer (4.2.3)
       actionpack (= 4.2.3)
@@ -102,6 +102,7 @@ GEM
     multi_json (1.11.2)
     nokogiri (1.6.7.1)
       mini_portile2 (~> 2.0.0.rc2)
+    pg (0.18.4)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -139,8 +140,6 @@ GEM
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    rdoc (4.2.1)
-      json (~> 1.4)
     ruby-prof (0.15.9)
     ruby_parser (3.7.2)
       sexp_processor (~> 4.1)
@@ -151,9 +150,6 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (~> 1.1)
-    sdoc (0.4.1)
-      json (~> 1.7, >= 1.7.7)
-      rdoc (~> 4.0)
     sexp_processor (4.6.0)
     sprockets (2.12.4)
       hike (~> 1.2)
@@ -187,12 +183,12 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   masonry-rails (~> 0.2.1)
+  pg
   rails (= 4.2.3)
   rails-perftest
   rails_12factor
   ruby-prof
   sass-rails
-  sdoc
   sqlite3
   turbolinks
   uglifier
