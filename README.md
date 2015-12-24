@@ -6,11 +6,10 @@
 
 Code exercise for Globality by Khen Price
 
-see it live [here](https://kp-globality.herokuapp.com/)
+See it live [here](https://kp-globality.herokuapp.com/).
 
 
-
-Specifications:
+### Specifications ###
 
 ** I followed the instructions below, other than the 'details_url' - I simply overlooked it while working on this and used a static link in the rendered view, since this is just an excersize, and I'm pretty sure the 'thumbnail_url' demonstartes all that is needed. I also altered the json names a bit (i.e. 'description' instead of 'blurb' etc.), I wouldn't do that in the real world of course. I work and design apis and am definitely aware of the importance of naming and precision when it comes to naming. I simply have to stop working on this excersize at this point. Thank you for understanding! **
 
@@ -31,24 +30,25 @@ You can design the UI to your liking. at the very least each board item should f
 
 ### How do I get set up? ###
 
-* Summary of set up
+* Summary of set up *
 
-bundle
-rake db:migrate
-rails s
+    bundle
+    rake db:migrate
+    rails s
+
 visit localhost:3000 in browser
 
-* Configuration
+* Configuration *
 
 See 'config' folder
 
-* Dependencies
+* Dependencies *
 
 See Gemfile
 
-* How to run tests
+* How to run tests *
 
-rake test
+    rake test
 
 I put in one functional test, and a few other testing ideas for an app with a bit more functianality in the commenting below it.
 
