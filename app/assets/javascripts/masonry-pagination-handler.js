@@ -8,14 +8,14 @@ $(function(){
         columnWidth: 100
       });
     });
-  
+    
     $container.infinitescroll({
       navSelector  : '#page-nav',    // selector for the paged navigation
       nextSelector : '#page-nav a',  // selector for the NEXT link (to page 2)
       itemSelector : '.box',     // selector for all items you'll retrieve
       loading: {
           finishedMsg: 'No more pages to load.',
-          img: 'assets/loading.gif'
+          img: 'loading.gif'
         }
       },
       // trigger Masonry as a callback
