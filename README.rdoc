@@ -1,0 +1,19 @@
+== hola
+
+== Installation
+
+Clone it:
+    git clone git@github.com:levymetal/infinite-scroll.git
+
+Bundle it:
+    cd infinite-scroll
+    bundle
+
+Set up the database:
+    rake db:setup
+
+Run it:
+    rails s
+
+View it:
+    http://localhost:3000/

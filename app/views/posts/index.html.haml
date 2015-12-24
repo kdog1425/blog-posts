@@ -1,0 +1,14 @@
+// main page
+%h1 Globality Posts
+
+// main container
+.posts#masonry-container
+  = render :partial => 'shared/posts', :locals => { :posts => @posts }
+%nav#page-nav
+  = link_to 'Load More Posts', posts_path(:page => @posts.next_page), :class => 'load-more-posts', :remote => true if @posts.next_page
+
+
+
+
+
+

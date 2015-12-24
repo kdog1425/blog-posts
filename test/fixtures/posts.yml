@@ -1,0 +1,14 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: Title1
+  author: Author1
+
+two:
+  title: Title2
+  author: Author2
+
+three:
+  title: Title3
+  author: Author3
+
