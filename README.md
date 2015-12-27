@@ -4,6 +4,8 @@
 
 See it live [here](https://kp-globality.herokuapp.com/).
 
+Tested for cross browser compatibility using [this online tool](https://www.browserling.com).
+
 
 ### Specifications ###
 
