@@ -32231,3 +32231,153 @@ Processing by PostsController#index as HTML
   Rendered shared/_posts.html.haml (10.5ms)
   Rendered posts/index.html.haml within layouts/application (12.8ms)
 Completed 200 OK in 26ms (Views: 23.0ms | ActiveRecord: 0.5ms)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at /Users/chenprice/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138)
+
+
+Started GET "/" for ::1 at 2015-12-27 10:28:46 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts" LIMIT 20 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "posts"[0m
+  Rendered shared/_posts.html.haml (13.8ms)
+  Rendered posts/index.html.haml within layouts/application (18.8ms)
+Completed 200 OK in 72ms (Views: 67.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/posts.css?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/masonry/fluid.css?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/masonry/infinitescroll.css?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/masonry/gutters.css?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/masonry/centered.css?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/masonry/right-to-left.css?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/imagesloaded.pkgd.min.js?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/jquery.infinitescroll.min.js?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/masonry-pagination-handler.js?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/masonry.pkgd.min.js?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/posts.js?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/Tropical_Beach_preview.jpg" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/assets/loading.gif" for ::1 at 2015-12-27 10:28:46 +0200
+
+
+Started GET "/" for ::1 at 2015-12-27 10:30:32 +0200
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" LIMIT 20 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "posts"[0m
+  Rendered shared/_posts.html.haml (4.9ms)
+  Rendered posts/index.html.haml within layouts/application (7.9ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/posts.css?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/masonry/gutters.css?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/masonry/fluid.css?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/masonry/centered.css?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/masonry/right-to-left.css?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/masonry/transitions.css?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/imagesloaded.pkgd.min.js?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/masonry-pagination-handler.js?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/masonry.pkgd.min.js?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/masonry/infinitescroll.css?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/jquery.infinitescroll.min.js?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/posts.js?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/application.js?body=1" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/Tropical_Beach_preview.jpg" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/assets/loading.gif" for ::1 at 2015-12-27 10:30:33 +0200
+
+
+Started GET "/posts?page=2" for ::1 at 2015-12-27 10:30:34 +0200
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"2"}
+  [1m[35mPost Load (0.7ms)[0m  SELECT  "posts".* FROM "posts" LIMIT 20 OFFSET 20
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "posts"[0m
+  Rendered shared/_posts.html.haml (10.3ms)
+  Rendered posts/index.html.haml within layouts/application (13.3ms)
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 1.0ms)
