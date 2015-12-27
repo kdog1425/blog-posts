@@ -11,15 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151223142713) do
+ActiveRecord::Schema.define(version: 20151227082232) do
 
   create_table "posts", force: :cascade do |t|
     t.string   "title"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "author"
-    t.text     "description"
-    t.text     "url_link"
+    t.text     "blurb"
+    t.text     "details_url"
+    t.string   "thumbnail_url"
   end
 
 end

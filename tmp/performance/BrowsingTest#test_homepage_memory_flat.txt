@@ -1,6 +1,6 @@
 Measure Mode: memory
-Thread ID: 70123361010180
-Fiber ID: 70123360716720
+Thread ID: 70198652961280
+Fiber ID: 70198652682660
 Total: 0.000000
 Sort by: self_time
 
@@ -153,7 +153,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   ActionView::OutputFlow#get
    NaN      0.000     0.000     0.000     0.000        1   ActionView::Context#_layout_for
    NaN      0.000     0.000     0.000     0.000        1   ActionView::Helpers::RenderingHelper#_layout_for
-   NaN      0.000     0.000     0.000     0.000        1   #<Module:0x007f8dc1918768>#protect_against_forgery?
+   NaN      0.000     0.000     0.000     0.000        1   #<Module:0x007fb0cc4b24e8>#protect_against_forgery?
    NaN      0.000     0.000     0.000     0.000        1   ActionView::Helpers::CsrfHelper#csrf_meta_tags
    NaN      0.000     0.000     0.000     0.000        1   ActionView::Helpers::AssetUrlHelper#javascript_path
    NaN      0.000     0.000     0.000     0.000        1   ActionView::Helpers::AssetTagHelper#javascript_include_tag
@@ -163,31 +163,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        3   ActiveSupport::SafeBuffer#concat
    NaN      0.000     0.000     0.000     0.000        4   ActionView::OutputBuffer#<<
    NaN      0.000     0.000     0.000     0.000        1   ActionView::Helpers::TagHelper#tag
-   NaN      0.000     0.000     0.000     0.000        2   #<Class:0x007f8dc18d9ec8>#asset_host
-   NaN      0.000     0.000     0.000     0.000        2   ActionView::Helpers::AssetUrlHelper#compute_asset_host
-   NaN      0.000     0.000     0.000     0.000        2   #<Class:0x007f8dc18d9ec8>#relative_url_root
-   NaN      0.000     0.000     0.000     0.000        4   ActiveSupport::OrderedOptions#respond_to_missing?
-   NaN      0.000     0.000     0.000     0.000        2   <Class::ActionView::Base>#assets_prefix
-   NaN      0.000     0.000     0.000     0.000        2   ActionView::Base#assets_prefix
-   NaN      0.000     0.000     0.000     0.000        2   <Class::ActionView::Base>#digest_assets
-   NaN      0.000     0.000     0.000     0.000        2   ActionView::Base#digest_assets
-   NaN      0.000     0.000     0.000     0.000        2   Sprockets::Asset#digest_path
-   NaN      0.000     0.000     0.000     0.000        2   Sprockets::Base#cache_key_for
-   NaN      0.000     0.000     0.000     0.000        2   Sprockets::Index#find_asset
-   NaN      0.000     0.000     0.000     0.000        2   Sprockets::Base#[]
-   NaN      0.000     0.000     0.000     0.000        2   <Class::ActionView::Base>#assets_environment
-   NaN      0.000     0.000     0.000     0.000        2   ActionView::Base#assets_environment
-   NaN      0.000     0.000     0.000     0.000        2   Sprockets::Manifest#assets
-   NaN      0.000     0.000     0.000     0.000        2   <Class::ActionView::Base>#assets_manifest
-   NaN      0.000     0.000     0.000     0.000        2   ActionView::Base#assets_manifest
-   NaN      0.000     0.000     0.000     0.000        2   Sprockets::Rails::Helper#asset_digest_path
-   NaN      0.000     0.000     0.000     0.000        2   Sprockets::Rails::Helper#compute_asset_path
    NaN      0.000     0.000     0.000     0.000        2   <Class::File>#extname
-   NaN      0.000     0.000     0.000     0.000        2   ActionView::Helpers::AssetUrlHelper#compute_asset_extname
-   NaN      0.000     0.000     0.000     0.000        2   ActionView::Helpers::AssetUrlHelper#asset_path
-   NaN      0.000     0.000     0.000     0.000        2   Sprockets::Rails::Helper#raise_runtime_errors
-   NaN      0.000     0.000     0.000     0.000        2   Sprockets::Rails::Helper#check_errors_for
-   NaN      0.000     0.000     0.000     0.000        2   Sprockets::Rails::Helper#asset_path
    NaN      0.000     0.000     0.000     0.000        1   ActionView::Helpers::AssetUrlHelper#stylesheet_path
    NaN      0.000     0.000     0.000     0.000        2   Hash#extract!
    NaN      0.000     0.000     0.000     0.000        1   ActionView::Helpers::AssetTagHelper#stylesheet_link_tag
@@ -201,10 +177,10 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   Sprockets::Rails::Helper#stylesheet_link_tag
    NaN      0.000     0.000     0.000     0.000        5   String#original_concat
    NaN      0.000     0.000     0.000     0.000        5   ActiveSupport::SafeBuffer#safe_concat
-   NaN      0.000     0.000     0.000     0.000        1   ActionView::CompiledTemplates#_app_views_layouts_application_html_erb__616984811032240423_70123364068380
+   NaN      0.000     0.000     0.000     0.000        1   ActionView::CompiledTemplates#_app_views_layouts_application_html_erb___200429988384850573_70198658206400
    NaN      0.000     0.000     0.000     0.000        1   ActionView::OutputFlow#set
    NaN      0.000     0.000     0.000     0.000        1   Fixnum#<
-   NaN      0.000     0.000     0.000     0.000        1   #<Class:0x007f8dbc33b908>#<
+   NaN      0.000     0.000     0.000     0.000        1   #<Class:0x007fb0cf0197d0>#<
    NaN      0.000     0.000     0.000     0.000        1   Float#ceil
    NaN      0.000     0.000     0.000     0.000        1   Fixnum#/
    NaN      0.000     0.000     0.000     0.000        1   Fixnum#to_f
@@ -234,7 +210,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        3   <Module::ActionDispatch::Http::URL>#add_params
    NaN      0.000     0.000     0.000     0.000        3   <Module::ActionDispatch::Http::URL>#path_for
    NaN      0.000     0.000     0.000     0.000        3   <Module::ActionDispatch::Http::URL>#url_for
-   NaN      0.000     0.000     0.000     0.000        3   #<Class:0x007f8dbcd40520>#name
+   NaN      0.000     0.000     0.000     0.000        3   #<Class:0x007fb0cd060830>#name
    NaN      0.000     0.000     0.000     0.000        6  *ActionDispatch::Journey::Format#evaluate
    NaN      0.000     0.000     0.000     0.000        3   ActionDispatch::Journey::Route#format
    NaN      0.000     0.000     0.000     0.000        6   Hash#delete_if
@@ -288,9 +264,9 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        3   ActionController::UrlFor#url_options
    NaN      0.000     0.000     0.000     0.000        3   ActionView::RoutingUrlFor#url_options
    NaN      0.000     0.000     0.000     0.000        7   Symbol#to_sym
-   NaN      0.000     0.000     0.000     0.000        6   #<Module:0x007f8dc113c378>#_routes
+   NaN      0.000     0.000     0.000     0.000        6   #<Module:0x007fb0cf1e0a00>#_routes
    NaN      0.000     0.000     0.000     0.000        3   ActionDispatch::Routing::UrlFor#url_for
-   NaN      0.000     0.000     0.000     0.000        3   #<Module:0x007f8dc113c378>#_generate_paths_by_default
+   NaN      0.000     0.000     0.000     0.000        3   #<Module:0x007fb0cf1e0a00>#_generate_paths_by_default
    NaN      0.000     0.000     0.000     0.000        8   Hash#symbolize_keys
    NaN      0.000     0.000     0.000     0.000        3   ActionView::RoutingUrlFor#url_for
    NaN      0.000     0.000     0.000     0.000        3   Hash#==
@@ -298,35 +274,59 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        3   ActionView::Helpers::UrlHelper#link_to_remote_options?
    NaN      0.000     0.000     0.000     0.000        3   ActionView::Helpers::UrlHelper#convert_options_to_data_attributes
    NaN      0.000     0.000     0.000     0.000        3   ActionView::Helpers::UrlHelper#link_to
-   NaN      0.000     0.000     0.000     0.000        3   #<Module:0x007f8dbe2188f8>#__temp__5727c6f5c696e6b6
+   NaN      0.000     0.000     0.000     0.000        3   #<Module:0x007fb0cc15f110>#__temp__5727c6f5c696e6b6
    NaN      0.000     0.000     0.000     0.000        3   ActionView::Helpers::TextHelper#truncate
    NaN      0.000     0.000     0.000     0.000        3   PostsHelper#pretify
-   NaN      0.000     0.000     0.000     0.000        3   #<Module:0x007f8dbe2188f8>#__temp__465637362796074796f6e6
+   NaN      0.000     0.000     0.000     0.000        3   #<Module:0x007fb0cc15f110>#__temp__465637362796074796f6e6
    NaN      0.000     0.000     0.000     0.000       14   Haml::Buffer#toplevel?
    NaN      0.000     0.000     0.000     0.000       14   Haml::Buffer#format_script_false_false_false_true_false_true_true
    NaN      0.000     0.000     0.000     0.000        3   ActiveRecord::Type::String#cast_value
    NaN      0.000     0.000     0.000     0.000        9   ActiveRecord::Type::Value#type_cast
    NaN      0.000     0.000     0.000     0.000        9   ActiveRecord::Type::Value#type_cast_from_database
-   NaN      0.000     0.000     0.000     0.000        6   #<Module:0x007f8dbe2188f8>#__temp__479647c656
-   NaN      0.000     0.000     0.000     0.000        6   Array#sort
-   NaN      0.000     0.000     0.000     0.000        6   ActiveSupport::SafeBuffer#gsub!
-   NaN      0.000     0.000     0.000     0.000        6   ActiveSupport::SafeBuffer#chomp
-   NaN      0.000     0.000     0.000     0.000       20   ActiveSupport::SafeBuffer#to_s
-   NaN      0.000     0.000     0.000     0.000        6   Haml::Helpers#preserve
-   NaN      0.000     0.000     0.000     0.000        6   Haml::Helpers::XssMods#preserve_with_haml_xss
-   NaN      0.000     0.000     0.000     0.000       32   String#html_safe
-   NaN      0.000     0.000     0.000     0.000       24   Haml::Util#html_safe
-   NaN      0.000     0.000     0.000     0.000       16   Haml::Helpers#html_escape
-   NaN      0.000     0.000     0.000     0.000       27   Object#html_safe?
-   NaN      0.000     0.000     0.000     0.000       20   Haml::Helpers::XssMods#html_escape_with_haml_xss
-   NaN      0.000     0.000     0.000     0.000        3   Enumerable#collect
-   NaN      0.000     0.000     0.000     0.000        3   <Class::Haml::Compiler>#build_attributes
-   NaN      0.000     0.000     0.000     0.000        3   Haml::Buffer#html5?
-   NaN      0.000     0.000     0.000     0.000        3   Haml::Buffer#html4?
-   NaN      0.000     0.000     0.000     0.000        3   Haml::Buffer#html?
+   NaN      0.000     0.000     0.000     0.000        6   #<Module:0x007fb0cc15f110>#__temp__479647c656
+   NaN      0.000     0.000     0.000     0.000        5   #<Class:0x007fb0cf1213f8>#asset_host
+   NaN      0.000     0.000     0.000     0.000        5   ActionView::Helpers::AssetUrlHelper#compute_asset_host
+   NaN      0.000     0.000     0.000     0.000        5   #<Class:0x007fb0cf1213f8>#relative_url_root
+   NaN      0.000     0.000     0.000     0.000       10   ActiveSupport::OrderedOptions#respond_to_missing?
+   NaN      0.000     0.000     0.000     0.000        5   <Class::ActionView::Base>#assets_prefix
+   NaN      0.000     0.000     0.000     0.000        5   ActionView::Base#assets_prefix
+   NaN      0.000     0.000     0.000     0.000        5   <Class::ActionView::Base>#digest_assets
+   NaN      0.000     0.000     0.000     0.000        5   ActionView::Base#digest_assets
+   NaN      0.000     0.000     0.000     0.000        5   Sprockets::Asset#digest_path
+   NaN      0.000     0.000     0.000     0.000        5   Sprockets::Base#cache_key_for
+   NaN      0.000     0.000     0.000     0.000        5   Sprockets::Index#find_asset
+   NaN      0.000     0.000     0.000     0.000        5   Sprockets::Base#[]
+   NaN      0.000     0.000     0.000     0.000        5   <Class::ActionView::Base>#assets_environment
+   NaN      0.000     0.000     0.000     0.000        5   ActionView::Base#assets_environment
+   NaN      0.000     0.000     0.000     0.000        5   Sprockets::Manifest#assets
+   NaN      0.000     0.000     0.000     0.000        5   <Class::ActionView::Base>#assets_manifest
+   NaN      0.000     0.000     0.000     0.000        5   ActionView::Base#assets_manifest
+   NaN      0.000     0.000     0.000     0.000        5   Sprockets::Rails::Helper#asset_digest_path
+   NaN      0.000     0.000     0.000     0.000        5   Sprockets::Rails::Helper#compute_asset_path
+   NaN      0.000     0.000     0.000     0.000        5   ActionView::Helpers::AssetUrlHelper#compute_asset_extname
+   NaN      0.000     0.000     0.000     0.000        5   ActionView::Helpers::AssetUrlHelper#asset_path
+   NaN      0.000     0.000     0.000     0.000        5   Sprockets::Rails::Helper#raise_runtime_errors
+   NaN      0.000     0.000     0.000     0.000        5   Sprockets::Rails::Helper#check_errors_for
+   NaN      0.000     0.000     0.000     0.000        5   Sprockets::Rails::Helper#asset_path
+   NaN      0.000     0.000     0.000     0.000        9   Array#sort
+   NaN      0.000     0.000     0.000     0.000        9   ActiveSupport::SafeBuffer#gsub!
+   NaN      0.000     0.000     0.000     0.000        9   ActiveSupport::SafeBuffer#chomp
+   NaN      0.000     0.000     0.000     0.000       23   ActiveSupport::SafeBuffer#to_s
+   NaN      0.000     0.000     0.000     0.000        9   Haml::Helpers#preserve
+   NaN      0.000     0.000     0.000     0.000        9   Haml::Helpers::XssMods#preserve_with_haml_xss
+   NaN      0.000     0.000     0.000     0.000       38   String#html_safe
+   NaN      0.000     0.000     0.000     0.000       30   Haml::Util#html_safe
+   NaN      0.000     0.000     0.000     0.000       19   Haml::Helpers#html_escape
+   NaN      0.000     0.000     0.000     0.000       30   Object#html_safe?
+   NaN      0.000     0.000     0.000     0.000       23   Haml::Helpers::XssMods#html_escape_with_haml_xss
+   NaN      0.000     0.000     0.000     0.000        6   Enumerable#collect
+   NaN      0.000     0.000     0.000     0.000        6   <Class::Haml::Compiler>#build_attributes
+   NaN      0.000     0.000     0.000     0.000        6   Haml::Buffer#html5?
+   NaN      0.000     0.000     0.000     0.000        6   Haml::Buffer#html4?
+   NaN      0.000     0.000     0.000     0.000        6   Haml::Buffer#html?
    NaN      0.000     0.000     0.000     0.000        9   <Class::Haml::Compiler>#filter_and_join
-   NaN      0.000     0.000     0.000     0.000        3   <Class::Haml::Buffer>#merge_attrs
-   NaN      0.000     0.000     0.000     0.000        3   Haml::Buffer#attributes
+   NaN      0.000     0.000     0.000     0.000        6   <Class::Haml::Buffer>#merge_attrs
+   NaN      0.000     0.000     0.000     0.000        6   Haml::Buffer#attributes
    NaN      0.000     0.000     0.000     0.000        3   ActiveRecord::Type::Integer#type_cast_from_database
    NaN      0.000     0.000     0.000     0.000       12   ActiveRecord::Attribute::FromDatabase#type_cast
    NaN      0.000     0.000     0.000     0.000       12   ActiveRecord::Attribute#original_value
@@ -338,7 +338,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000       15   ActiveRecord::AttributeSet#[]
    NaN      0.000     0.000     0.000     0.000       15   ActiveRecord::AttributeSet#fetch_value
    NaN      0.000     0.000     0.000     0.000       15   ActiveRecord::AttributeMethods::Read#_read_attribute
-   NaN      0.000     0.000     0.000     0.000        3   #<Module:0x007f8dbe2188f8>#__temp__9646
+   NaN      0.000     0.000     0.000     0.000        3   #<Module:0x007fb0cc15f110>#__temp__9646
    NaN      0.000     0.000     0.000     0.000        1   WillPaginate::Collection#total_entries=
    NaN      0.000     0.000     0.000     0.000        1   WillPaginate::Collection#offset
    NaN      0.000     0.000     0.000     0.000        2   Delegator#==
@@ -391,11 +391,11 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   Arel::Visitors::ToSql#visit_Arel_Nodes_JoinSource
    NaN      0.000     0.000     0.000     0.000        1   Arel::Nodes::JoinSource#empty?
    NaN      0.000     0.000     0.000     0.000        1   Arel::Visitors::ToSql#quote_column_name
-   NaN      0.000     0.000     0.000     0.000        1   #<Class:0x007f8dbd135d10>#name
+   NaN      0.000     0.000     0.000     0.000        1   #<Class:0x007fb0cbb06340>#name
    NaN      0.000     0.000     0.000     0.000        2   ActiveRecord::ConnectionAdapters::SQLite3Adapter#quote_column_name
    NaN      0.000     0.000     0.000     0.000        2   ActiveRecord::ConnectionAdapters::Quoting#quote_table_name
    NaN      0.000     0.000     0.000     0.000        2   Arel::Visitors::ToSql#quote_table_name
-   NaN      0.000     0.000     0.000     0.000        2   #<Class:0x007f8dbd135d10>#relation
+   NaN      0.000     0.000     0.000     0.000        2   #<Class:0x007fb0cbb06340>#relation
    NaN      0.000     0.000     0.000     0.000        1   Arel::Visitors::ToSql#visit_Arel_Attributes_Attribute
    NaN      0.000     0.000     0.000     0.000        1   Enumerable#each_with_index
    NaN      0.000     0.000     0.000     0.000        1   Arel::Visitors::ToSql#visit_Arel_Nodes_Top
@@ -425,7 +425,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   Arel::SelectManager#distinct
    NaN      0.000     0.000     0.000     0.000        1   ActiveRecord::QueryMethods#distinct_value
    NaN      0.000     0.000     0.000     0.000        1   Arel::SelectManager#project
-   NaN      0.000     0.000     0.000     0.000        1   <Class::#<Class:0x007f8dbd135d10>>#new
+   NaN      0.000     0.000     0.000     0.000        1   <Class::#<Class:0x007fb0cbb06340>>#new
    NaN      0.000     0.000     0.000     0.000        1   Arel::Table#[]
    NaN      0.000     0.000     0.000     0.000        1   <Module::Arel>#sql
    NaN      0.000     0.000     0.000     0.000        1   <Module::Arel>#star
@@ -463,10 +463,10 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   ActiveRecord::Relation#to_a
    NaN      0.000     0.000     0.000     0.000        1   WillPaginate::Collection#initialize
    NaN      0.000     0.000     0.000     0.000        1   <Class::WillPaginate::Collection>#create
-   NaN      0.000     0.000     0.000     0.000        1   #<Module:0x007f8dbc13cb98>#nil?
+   NaN      0.000     0.000     0.000     0.000        1   #<Module:0x007fb0cb9f5028>#nil?
    NaN      0.000     0.000     0.000     0.000        1   WillPaginate::ActiveRecord::RelationMethods#to_a
    NaN      0.000     0.000     0.000     0.000        1   ActiveRecord::Delegation#each
-   NaN      0.000     0.000     0.000     0.000        1   ActionView::CompiledTemplates#_app_views_shared__posts_html_haml___2262644140517314071_70123370581460
+   NaN      0.000     0.000     0.000     0.000        1   ActionView::CompiledTemplates#_app_views_shared__posts_html_haml__3381209451956405563_70198682322280
    NaN      0.000     0.000     0.000     0.000        1   ActionView::PartialRenderer#render_partial
    NaN      0.000     0.000     0.000     0.000        1   ActiveSupport::Notifications::Event#<<
    NaN      0.000     0.000     0.000     0.000       13   String#eql?
@@ -488,15 +488,15 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        5   Haml::Helpers#is_haml?
    NaN      0.000     0.000     0.000     0.000        1   ActionView::Base#render_with_haml
    NaN      0.000     0.000     0.000     0.000        3   String#encode!
-   NaN      0.000     0.000     0.000     0.000       39   String#initialize
-   NaN      0.000     0.000     0.000     0.000       35   ActiveSupport::SafeBuffer#initialize
+   NaN      0.000     0.000     0.000     0.000       45   String#initialize
+   NaN      0.000     0.000     0.000     0.000       41   ActiveSupport::SafeBuffer#initialize
    NaN      0.000     0.000     0.000     0.000        3   ActionView::OutputBuffer#initialize
    NaN      0.000     0.000     0.000     0.000        2   String#encode
    NaN      0.000     0.000     0.000     0.000        2   <Class::Encoding>#find
    NaN      0.000     0.000     0.000     0.000        2   Haml::Buffer#new_encoded_string
    NaN      0.000     0.000     0.000     0.000        2   Haml::Buffer#initialize
    NaN      0.000     0.000     0.000     0.000        5   Haml::Helpers#haml_buffer
-   NaN      0.000     0.000     0.000     0.000        1   ActionView::CompiledTemplates#_app_views_posts_index_html_haml__616322080303404868_70123364085420
+   NaN      0.000     0.000     0.000     0.000        1   ActionView::CompiledTemplates#_app_views_posts_index_html_haml___1297618876301777891_70198658211480
    NaN      0.000     0.000     0.000     0.000        3   ActionView::Template#method_name
    NaN      0.000     0.000     0.000     0.000        3   ActionView::Template#compile!
    NaN      0.000     0.000     0.000     0.000        3  *ActionView::Template#instrument
@@ -527,6 +527,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        4   ActionView::Resolver#find_all
    NaN      0.000     0.000     0.000     0.000        4   ActionView::PathSet#find_all
    NaN      0.000     0.000     0.000     0.000        2   ActionView::PathSet#find
+   NaN      0.000     0.000     0.000     0.000       14   Kernel#eql?
    NaN      0.000     0.000     0.000     0.000       20   Array#eql?
    NaN      0.000     0.000     0.000     0.000        1   Hash#eql?
    NaN      0.000     0.000     0.000     0.000       33   Array#hash
@@ -634,14 +635,14 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        2   Fixnum#>
    NaN      0.000     0.000     0.000     0.000        2   WillPaginate::PageNumber#to_offset
    NaN      0.000     0.000     0.000     0.000        7   ActiveRecord::QueryMethods#limit_value
-   NaN      0.000     0.000     0.000     0.000        3   #<Class:0x007f8dbc33b908>#__setobj__
+   NaN      0.000     0.000     0.000     0.000        3   #<Class:0x007fb0cf0197d0>#__setobj__
    NaN      0.000     0.000     0.000     0.000        3   Delegator#initialize
    NaN      0.000     0.000     0.000     0.000        3   Kernel#Integer
    NaN      0.000     0.000     0.000     0.000        3   Method#call
    NaN      0.000     0.000     0.000     0.000        3   UnboundMethod#bind
    NaN      0.000     0.000     0.000     0.000        3   Module#instance_method
-   NaN      0.000     0.000     0.000     0.000        3   #<Module:0x007f8dbc13cb98>#block_given?
-   NaN      0.000     0.000     0.000     0.000       10   #<Class:0x007f8dbc33b908>#__getobj__
+   NaN      0.000     0.000     0.000     0.000        3   #<Module:0x007fb0cb9f5028>#block_given?
+   NaN      0.000     0.000     0.000     0.000       10   #<Class:0x007fb0cf0197d0>#__getobj__
    NaN      0.000     0.000     0.000     0.000        3   Delegator#method_missing
    NaN      0.000     0.000     0.000     0.000        3   WillPaginate::PageNumber#initialize
    NaN      0.000     0.000     0.000     0.000        2   <Module::WillPaginate>#PageNumber
@@ -658,7 +659,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   ActiveRecord::QueryMethods#limit_value=
    NaN      0.000     0.000     0.000     0.000        1   ActiveRecord::QueryMethods#limit!
    NaN      0.000     0.000     0.000     0.000        3   ActiveRecord::Relation#reset
-   NaN      0.000     0.000     0.000     0.000        6   <Class::Hash>#[]
+   NaN      0.000     0.000     0.000     0.000        9   <Class::Hash>#[]
    NaN      0.000     0.000     0.000     0.000        3   ActiveRecord::Relation#initialize_copy
    NaN      0.000     0.000     0.000     0.000        4   Kernel#initialize_clone
    NaN      0.000     0.000     0.000     0.000        3   Kernel#clone
@@ -726,7 +727,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   ActionDispatch::Cookies::CookieJar#initialize
    NaN      0.000     0.000     0.000     0.000        2   Rack::Request#scheme
    NaN      0.000     0.000     0.000     0.000        2   Rack::Request#ssl?
-   NaN      0.000     0.000     0.000     0.000       12   String#sub
+   NaN      0.000     0.000     0.000     0.000       18   String#sub
    NaN      0.000     0.000     0.000     0.000        3   ActionDispatch::Http::URL#raw_host_with_port
    NaN      0.000     0.000     0.000     0.000        2   ActionDispatch::Http::URL#host
    NaN      0.000     0.000     0.000     0.000        1   <Class::ActionDispatch::Cookies::CookieJar>#options_for_env
@@ -750,8 +751,8 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        2   Rack::Request#session
    NaN      0.000     0.000     0.000     0.000        2   ActionController::Metal#session
    NaN      0.000     0.000     0.000     0.000        1   Turbolinks::XHRHeaders#set_xhr_redirected_to
-   NaN      0.000     0.000     0.000     0.000       23  *Proc#yield
-   NaN      0.000     0.000     0.000     0.000        2   #<Class:0x007f8dc18d9ec8>#allow_forgery_protection
+   NaN      0.000     0.000     0.000     0.000       47  *Proc#yield
+   NaN      0.000     0.000     0.000     0.000        2   #<Class:0x007fb0cf1213f8>#allow_forgery_protection
    NaN      0.000     0.000     0.000     0.000        3   ActiveSupport::InheritableOptions#initialize
    NaN      0.000     0.000     0.000     0.000        2   ActiveSupport::InheritableOptions#inheritable_copy
    NaN      0.000     0.000     0.000     0.000        3   ActiveSupport::Configurable#config
@@ -771,7 +772,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   Hash#except!
    NaN      0.000     0.000     0.000     0.000        1   Hash#except
    NaN      0.000     0.000     0.000     0.000        1   ActionController::LogSubscriber#start_processing
-   NaN      0.000     0.000     0.000     0.000        9   #<Class:0x007f8dc18d9ec8>#logger
+   NaN      0.000     0.000     0.000     0.000        9   #<Class:0x007fb0cf1213f8>#logger
    NaN      0.000     0.000     0.000     0.000        9   <Class::ActionController::Base>#logger
    NaN      0.000     0.000     0.000     0.000        9   ActionController::LogSubscriber#logger
    NaN      0.000     0.000     0.000     0.000        7   ActiveSupport::Notifications::Fanout#listening?
@@ -780,7 +781,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   ActionDispatch::Request#fullpath
    NaN      0.000     0.000     0.000     0.000        1   Kernel#!~
    NaN      0.000     0.000     0.000     0.000        2   ActionDispatch::Request#accept
-   NaN      0.000     0.000     0.000     0.000        4   Kernel#=~
+   NaN      0.000     0.000     0.000     0.000        7   Kernel#=~
    NaN      0.000     0.000     0.000     0.000        2   ActionDispatch::Request#xml_http_request?
    NaN      0.000     0.000     0.000     0.000        1   ActionDispatch::Http::MimeNegotiation#valid_accept_header
    NaN      0.000     0.000     0.000     0.000        1   <Class::ActionDispatch::Request>#ignore_accept_header
@@ -820,8 +821,8 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        2   Rack::Request#parse_query
    NaN      0.000     0.000     0.000     0.000        2   ActionDispatch::Request#parse_query
    NaN      0.000     0.000     0.000     0.000        1   StringIO#read
-   NaN      0.000     0.000     0.000     0.000        1   #<Class:0x007f8dbc908d18>#parse
-   NaN      0.000     0.000     0.000     0.000        5   String#=~
+   NaN      0.000     0.000     0.000     0.000        1   #<Class:0x007fb0cbaadb78>#parse
+   NaN      0.000     0.000     0.000     0.000        8   String#=~
    NaN      0.000     0.000     0.000     0.000        1   <Class::Rack::Multipart::Parser>#create
    NaN      0.000     0.000     0.000     0.000        1   <Module::Rack::Multipart>#parse_multipart
    NaN      0.000     0.000     0.000     0.000        1   Rack::Request#parse_multipart
@@ -836,7 +837,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   ActionDispatch::Http::FilterParameters#parameter_filter
    NaN      0.000     0.000     0.000     0.000        1   ActionDispatch::Http::FilterParameters#filtered_parameters
    NaN      0.000     0.000     0.000     0.000        1   ActionController::Instrumentation#process_action
-   NaN      0.000     0.000     0.000     0.000        1   #<Class:0x007f8dc10c2988>#format
+   NaN      0.000     0.000     0.000     0.000        1   #<Class:0x007fb0cf1f82b8>#format
    NaN      0.000     0.000     0.000     0.000        1   <Class::PostsController>#_wrapper_options
    NaN      0.000     0.000     0.000     0.000        1   ActionController::Base#_wrapper_options
    NaN      0.000     0.000     0.000     0.000        1   ActionController::ParamsWrapper#_wrapper_formats
@@ -858,12 +859,12 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   ActionController::HideActions::ClassMethods#visible_action?
    NaN      0.000     0.000     0.000     0.000        1   ActionController::HideActions#method_for_action
    NaN      0.000     0.000     0.000     0.000        1   ActionController::ImplicitRender#method_for_action
-   NaN      0.000     0.000     0.000     0.000       10   String#include?
+   NaN      0.000     0.000     0.000     0.000       13   String#include?
    NaN      0.000     0.000     0.000     0.000        1   AbstractController::Base#_valid_action_name?
    NaN      0.000     0.000     0.000     0.000        1   AbstractController::Base#_find_action_name
    NaN      0.000     0.000     0.000     0.000        1   AbstractController::Base#process
    NaN      0.000     0.000     0.000     0.000        2   Thread#[]=
-   NaN      0.000     0.000     0.000     0.000        2   #<Module:0x007f8dbc9f0460>#config=
+   NaN      0.000     0.000     0.000     0.000        2   #<Module:0x007fb0cc88e580>#config=
    NaN      0.000     0.000     0.000     0.000        1   ActionView::I18nProxy#initialize
    NaN      0.000     0.000     0.000     0.000        1   <Module::ActionView::Template::Handlers>#extensions
    NaN      0.000     0.000     0.000     0.000        1   ActionView::LookupContext::Accessors#default_handlers
@@ -872,9 +873,9 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   ActionView::LookupContext::Accessors#default_formats
    NaN      0.000     0.000     0.000     0.000        1   Array#uniq!
    NaN      0.000     0.000     0.000     0.000        1   I18n::Config#default_locale
-   NaN      0.000     0.000     0.000     0.000        1   #<Module:0x007f8dbc9f0460>#default_locale
+   NaN      0.000     0.000     0.000     0.000        1   #<Module:0x007fb0cc88e580>#default_locale
    NaN      0.000     0.000     0.000     0.000        1   I18n::Config#locale
-   NaN      0.000     0.000     0.000     0.000        1   #<Module:0x007f8dbc9f0460>#locale
+   NaN      0.000     0.000     0.000     0.000        1   #<Module:0x007fb0cc88e580>#locale
    NaN      0.000     0.000     0.000     0.000        1   ActionView::LookupContext::Accessors#default_locale
    NaN      0.000     0.000     0.000     0.000        1   ActionView::LookupContext::Accessors#initialize_details
    NaN      0.000     0.000     0.000     0.000        1   ActionView::PathSet#typecast
@@ -889,7 +890,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   ActionView::ViewPaths#details_for_lookup
    NaN      0.000     0.000     0.000     0.000        1   <Class::ActionController::Base>#_view_paths
    NaN      0.000     0.000     0.000     0.000       13   ActionView::ViewPaths#lookup_context
-   NaN      0.000     0.000     0.000     0.000        4   #<Module:0x007f8dbc9f0460>#config
+   NaN      0.000     0.000     0.000     0.000        4   #<Module:0x007fb0cc88e580>#config
    NaN      0.000     0.000     0.000     0.000        1   ActionView::Rendering#process
    NaN      0.000     0.000     0.000     0.000        1   ActionController::Metal#dispatch
    NaN      0.000     0.000     0.000     0.000        2   ActionDispatch::Http::Cache::Response#cache_control_segments
@@ -931,7 +932,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   ActionDispatch::Routing::RouteSet::Dispatcher#merge_default_action!
    NaN      0.000     0.000     0.000     0.000        1   ActiveSupport::Inflector#underscore
    NaN      0.000     0.000     0.000     0.000        1   String#underscore
-   NaN      0.000     0.000     0.000     0.000       99   Hash#key?
+   NaN      0.000     0.000     0.000     0.000      102   Hash#key?
    NaN      0.000     0.000     0.000     0.000        1   ActionDispatch::Routing::RouteSet::Dispatcher#normalize_controller!
    NaN      0.000     0.000     0.000     0.000        1   ActionDispatch::Routing::RouteSet::Dispatcher#prepare_params!
    NaN      0.000     0.000     0.000     0.000        1   ActionDispatch::Request#check_path_parameters!
@@ -972,7 +973,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   ActionDispatch::Journey::Router#find_routes
    NaN      0.000     0.000     0.000     0.000        1   ActionDispatch::Journey::Router#serve
    NaN      0.000     0.000     0.000     0.000        1   Rack::Request#path_info=
-   NaN      0.000     0.000     0.000     0.000        7   String#gsub!
+   NaN      0.000     0.000     0.000     0.000       10   String#gsub!
    NaN      0.000     0.000     0.000     0.000        4   String#sub!
    NaN      0.000     0.000     0.000     0.000        1   String#squeeze!
    NaN      0.000     0.000     0.000     0.000        1   <Class::ActionDispatch::Journey::Router::Utils>#normalize_path
@@ -1033,7 +1034,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000       10   Array#select
    NaN      0.000     0.000     0.000     0.000       10   ActiveSupport::Notifications::InstrumentationRegistry#instrumenter_for
    NaN      0.000     0.000     0.000     0.000       10   <Module::ActiveSupport::Notifications>#instrumenter
-   NaN      0.000     0.000     0.000     0.000       18   String#==
+   NaN      0.000     0.000     0.000     0.000       24   String#==
    NaN      0.000     0.000     0.000     0.000        3   Symbol#[]
    NaN      0.000     0.000     0.000     0.000        1   ActiveSupport::StringInquirer#method_missing
    NaN      0.000     0.000     0.000     0.000        1   <Module::Rails>#env
@@ -1079,33 +1080,33 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   Rack::Lock#call
    NaN      0.000     0.000     0.000     0.000        3   <Class::File>#file?
    NaN      0.000     0.000     0.000     0.000        1   Enumerable#detect
-   NaN      0.000     0.000     0.000     0.000        8   <Class::File>#join
+   NaN      0.000     0.000     0.000     0.000       11   <Class::File>#join
    NaN      0.000     0.000     0.000     0.000        2   Array#unshift
    NaN      0.000     0.000     0.000     0.000        3   Rack::Utils#clean_path_info
-   NaN      0.000     0.000     0.000     0.000       39  *Hash#_get
-   NaN      0.000     0.000     0.000     0.000        2   #<Class:0x007f8dc18d9ec8>#default_static_extension
+   NaN      0.000     0.000     0.000     0.000       69  *Hash#_get
+   NaN      0.000     0.000     0.000     0.000        2   #<Class:0x007fb0cf1213f8>#default_static_extension
    NaN      0.000     0.000     0.000     0.000       12   ActiveSupport::Configurable::ClassMethods#config
    NaN      0.000     0.000     0.000     0.000        2   <Class::ActionController::Base>#default_static_extension
    NaN      0.000     0.000     0.000     0.000        2   ActionDispatch::FileHandler#ext
    NaN      0.000     0.000     0.000     0.000        3   String#valid_encoding?
-   NaN      0.000     0.000     0.000     0.000       42   String#gsub
+   NaN      0.000     0.000     0.000     0.000       51   String#gsub
    NaN      0.000     0.000     0.000     0.000        1   String#encoding
    NaN      0.000     0.000     0.000     0.000        1   URI::RFC2396_Parser#unescape
    NaN      0.000     0.000     0.000     0.000        1   <Module::URI>#parser
    NaN      0.000     0.000     0.000     0.000        1   ActionDispatch::FileHandler#match?
-   NaN      0.000     0.000     0.000     0.000       10   String#chomp
+   NaN      0.000     0.000     0.000     0.000       13   String#chomp
    NaN      0.000     0.000     0.000     0.000        1   ActionDispatch::Static#call
    NaN      0.000     0.000     0.000     0.000        1   Rack::Sendfile#call
    NaN      0.000     0.000     0.000     0.000        1   Rails::Engine#app
    NaN      0.000     0.000     0.000     0.000       12   String#initialize_copy
    NaN      0.000     0.000     0.000     0.000        1   Rails::Application#env_config
    NaN      0.000     0.000     0.000     0.000        1   Rails::Engine#call
-   NaN      0.000     0.000     0.000     0.000        6   String#blank?
-   NaN      0.000     0.000     0.000     0.000       25   Object#present?
+   NaN      0.000     0.000     0.000     0.000        9   String#blank?
+   NaN      0.000     0.000     0.000     0.000       28   Object#present?
    NaN      0.000     0.000     0.000     0.000        1   Rails::Application#build_original_fullpath
    NaN      0.000     0.000     0.000     0.000        1   Rails::Application#call
    NaN      0.000     0.000     0.000     0.000        7   Rack::Request#initialize
-   NaN      0.000     0.000     0.000     0.000       21   Array#join
+   NaN      0.000     0.000     0.000     0.000       24   Array#join
    NaN      0.000     0.000     0.000     0.000        1   Hash#values
    NaN      0.000     0.000     0.000     0.000        1   Rack::Test::CookieJar#hash_for
    NaN      0.000     0.000     0.000     0.000        1   Rack::Test::CookieJar#for
@@ -1118,7 +1119,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        2   StringIO#initialize
    NaN      0.000     0.000     0.000     0.000       11   Fixnum#to_default_s
    NaN      0.000     0.000     0.000     0.000       11   Fixnum#to_s
-   NaN      0.000     0.000     0.000     0.000        8   Regexp#===
+   NaN      0.000     0.000     0.000     0.000       11   Regexp#===
    NaN      0.000     0.000     0.000     0.000      269   String#===
    NaN      0.000     0.000     0.000     0.000        1   URI::RFC2396_Parser#split
    NaN      0.000     0.000     0.000     0.000        1   URI::RFC2396_Parser#parse
@@ -1127,11 +1128,10 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   URI::Generic#userinfo
    NaN      0.000     0.000     0.000     0.000        1   URI::Generic#to_s
    NaN      0.000     0.000     0.000     0.000        8   Hash#has_key?
-   NaN      0.000     0.000     0.000     0.000       15   Kernel#eql?
-   NaN      0.000     0.000     0.000     0.000      100   Hash#delete
+   NaN      0.000     0.000     0.000     0.000      106   Hash#delete
    NaN      0.000     0.000     0.000     0.000        1   Rack::Test::Session#headers_for_env
    NaN      0.000     0.000     0.000     0.000        1   Rack::Test::Session#default_env
-   NaN      0.000     0.000     0.000     0.000        8   String#[]
+   NaN      0.000     0.000     0.000     0.000       14   String#[]
    NaN      0.000     0.000     0.000     0.000        5   <Class::URI::Generic>#default_port
    NaN      0.000     0.000     0.000     0.000        5   URI::Generic#default_port
    NaN      0.000     0.000     0.000     0.000       10   String#freeze
@@ -1155,7 +1155,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000       17   MatchData#[]
    NaN      0.000     0.000     0.000     0.000        4   Regexp#match
    NaN      0.000     0.000     0.000     0.000        2   String#ascii_only?
-   NaN      0.000     0.000     0.000     0.000        8   String#to_str
+   NaN      0.000     0.000     0.000     0.000       11   String#to_str
    NaN      0.000     0.000     0.000     0.000        2   URI::RFC3986_Parser#split
    NaN      0.000     0.000     0.000     0.000        2   URI::RFC3986_Parser#parse
    NaN      0.000     0.000     0.000     0.000        2   <Module::URI>#parse
@@ -1164,7 +1164,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   ActionDispatch::Integration::Session#build_full_uri
    NaN      0.000     0.000     0.000     0.000        1   Rack::Test::Session#initialize
    NaN      0.000     0.000     0.000     0.000        2   ActionDispatch::Integration::Session#_mock_session
-   NaN      0.000     0.000     0.000     0.000       48   Hash#each
+   NaN      0.000     0.000     0.000     0.000       57   Hash#each
    NaN      0.000     0.000     0.000     0.000        1   ActionDispatch::Http::Headers#merge!
    NaN      0.000     0.000     0.000     0.000        2   ActionDispatch::Http::Headers#initialize
    NaN      0.000     0.000     0.000     0.000        3   ActionDispatch::Integration::Session#https?
@@ -1212,7 +1212,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        8   Logger::LogDevice#write
    NaN      0.000     0.000     0.000     0.000       68   Module#===
    NaN      0.000     0.000     0.000     0.000        8   ActiveSupport::Logger::SimpleFormatter#call
-   NaN      0.000     0.000     0.000     0.000       19   NilClass#to_s
+   NaN      0.000     0.000     0.000     0.000       22   NilClass#to_s
    NaN      0.000     0.000     0.000     0.000       42   Array#any?
    NaN      0.000     0.000     0.000     0.000       11   ActiveSupport::TaggedLogging::Formatter#current_tags
    NaN      0.000     0.000     0.000     0.000        8   ActiveSupport::TaggedLogging::Formatter#tags_text
@@ -1242,7 +1242,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        6   Time#minus_without_duration
    NaN      0.000     0.000     0.000     0.000        6   <Class::ActiveSupport::Duration>#===
    NaN      0.000     0.000     0.000     0.000        6   Time#minus_with_duration
-   NaN      0.000     0.000     0.000     0.000      111   Kernel#is_a?
+   NaN      0.000     0.000     0.000     0.000      120   Kernel#is_a?
    NaN      0.000     0.000     0.000     0.000        6   Time#minus_with_coercion
    NaN      0.000     0.000     0.000     0.000        6   ActiveSupport::Notifications::Event#duration
    NaN      0.000     0.000     0.000     0.000        7   <Class::ActiveRecord::RuntimeRegistry>#sql_runtime
@@ -1250,7 +1250,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        3   ActiveRecord::LogSubscriber#sql
    NaN      0.000     0.000     0.000     0.000       45   Array#first
    NaN      0.000     0.000     0.000     0.000       25   String#split
-   NaN      0.000     0.000     0.000     0.000       19   Hash#merge!
+   NaN      0.000     0.000     0.000     0.000       22   Hash#merge!
    NaN      0.000     0.000     0.000     0.000       20   Array#pop
    NaN      0.000     0.000     0.000     0.000        7   ActiveSupport::Subscriber#finish
    NaN      0.000     0.000     0.000     0.000        7   ActiveSupport::LogSubscriber#finish
@@ -1264,7 +1264,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        6   SQLite3::Statement#step
    NaN      0.000     0.000     0.000     0.000        3   Kernel#loop
    NaN      0.000     0.000     0.000     0.000        3   SQLite3::Statement#each
-   NaN      0.000     0.000     0.000     0.000       16   Enumerable#map
+   NaN      0.000     0.000     0.000     0.000       19   Enumerable#map
    NaN      0.000     0.000     0.000     0.000        6   Array#initialize
    NaN      0.000     0.000     0.000     0.000        6   SQLite3::Statement#column_count
    NaN      0.000     0.000     0.000     0.000        3   SQLite3::Statement#get_metadata
@@ -1273,7 +1273,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        2   SQLite3::Statement#bind_params
    NaN      0.000     0.000     0.000     0.000        3   SQLite3::Statement#initialize
    NaN      0.000     0.000     0.000     0.000        3   SQLite3::Database#prepare
-   NaN      0.000     0.000     0.000     0.000       52   Kernel#nil?
+   NaN      0.000     0.000     0.000     0.000       55   Kernel#nil?
    NaN      0.000     0.000     0.000     0.000        2   Module#const_defined?
    NaN      0.000     0.000     0.000     0.000        2   SQLite3::Database#execute
    NaN      0.000     0.000     0.000     0.000        1   SQLite3::Database#transaction
@@ -1302,10 +1302,10 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   ActiveRecord::ConnectionAdapters::TransactionState#initialize
    NaN      0.000     0.000     0.000     0.000        1   ActiveRecord::ConnectionAdapters::Transaction#initialize
    NaN      0.000     0.000     0.000     0.000        1   ActiveRecord::ConnectionAdapters::RealTransaction#initialize
-   NaN      0.000     0.000     0.000     0.000      190  *Class#new
+   NaN      0.000     0.000     0.000     0.000      196  *Class#new
    NaN      0.000     0.000     0.000     0.000        1   ActiveRecord::ConnectionAdapters::TransactionManager#begin_transaction
    NaN      0.000     0.000     0.000     0.000        1   ActiveRecord::ConnectionAdapters::DatabaseStatements#begin_transaction
-   NaN      0.000     0.000     0.000     0.000      114  *Array#each
+   NaN      0.000     0.000     0.000     0.000      117  *Array#each
    NaN      0.000     0.000     0.000     0.000       10   ThreadSafe::NonConcurrentCacheBackend#[]=
    NaN      0.000     0.000     0.000     0.000       28  *Mutex#synchronize
    NaN      0.000     0.000     0.000     0.000       10   ThreadSafe::MriCacheBackend#[]=
@@ -1315,7 +1315,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000       12   ActiveSupport::Callbacks::CallbackChain#empty?
    NaN      0.000     0.000     0.000     0.000        1   <Class::ActiveRecord::ConnectionAdapters::AbstractAdapter>#_checkout_callbacks
    NaN      0.000     0.000     0.000     0.000        1   ActiveRecord::ConnectionAdapters::AbstractAdapter#_checkout_callbacks
-   NaN      0.000     0.000     0.000     0.000       86   Symbol#to_s
+   NaN      0.000     0.000     0.000     0.000       89   Symbol#to_s
    NaN      0.000     0.000     0.000     0.000       12  *ActiveSupport::Callbacks#run_callbacks
    NaN      0.000     0.000     0.000     0.000        1   ActiveRecord::ConnectionAdapters::ConnectionPool#checkout_and_verify
    NaN      0.000     0.000     0.000     0.000       19   Mutex#unlock
@@ -1339,7 +1339,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        6   ActiveRecord::ConnectionAdapters::ConnectionPool#connection
    NaN      0.000     0.000     0.000     0.000       17   Array#map
    NaN      0.000     0.000     0.000     0.000        6   Symbol#to_proc
-   NaN      0.000     0.000     0.000     0.000       26   Array#compact
+   NaN      0.000     0.000     0.000     0.000       29   Array#compact
    NaN      0.000     0.000     0.000     0.000       10   Hash#each_pair
    NaN      0.000     0.000     0.000     0.000       56  *Kernel#dup
    NaN      0.000     0.000     0.000     0.000        2   ThreadSafe::NonConcurrentCacheBackend#dupped_backend
@@ -1359,7 +1359,7 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   ActiveRecord::TestFixtures#enlist_fixture_connections
    NaN      0.000     0.000     0.000     0.000       67   Kernel#hash
    NaN      0.000     0.000     0.000     0.000       13   Array#include?
-   NaN      0.000     0.000     0.000     0.000      127   String#to_s
+   NaN      0.000     0.000     0.000     0.000      139   String#to_s
    NaN      0.000     0.000     0.000     0.000        2   ActiveRecord::TestFixtures::ClassMethods#uses_transaction?
    NaN      0.000     0.000     0.000     0.000        4   Minitest::Runnable#name
    NaN      0.000     0.000     0.000     0.000        2   <Class::ActiveSupport::TestCase>#use_transactional_fixtures
@@ -1373,18 +1373,18 @@ Sort by: self_time
    NaN      0.000     0.000     0.000     0.000        1   ActiveSupport::Testing::Performance::Performer#run_test
    NaN      0.000     0.000     0.000     0.000        3  *Integer#times
    NaN      0.000     0.000     0.000     0.000       15   Integer#to_i
-   NaN      0.000     0.000     0.000     0.000       51   Hash#initialize_copy
-   NaN      0.000     0.000     0.000     0.000       74  *Kernel#initialize_dup
-   NaN      0.000     0.000     0.000     0.000       18   Hash#merge
+   NaN      0.000     0.000     0.000     0.000       54   Hash#initialize_copy
+   NaN      0.000     0.000     0.000     0.000       77  *Kernel#initialize_dup
+   NaN      0.000     0.000     0.000     0.000       21   Hash#merge
    NaN      0.000     0.000     0.000     0.000        1   <Class::ActionDispatch::PerformanceTest>#profile_options
-   NaN      0.000     0.000     0.000     0.000       37   Kernel#public_send
-   NaN      0.000     0.000     0.000     0.000       92   Kernel#class
-   NaN      0.000     0.000     0.000     0.000       34   Kernel#instance_variable_defined?
+   NaN      0.000     0.000     0.000     0.000       49   Kernel#public_send
+   NaN      0.000     0.000     0.000     0.000      107   Kernel#class
+   NaN      0.000     0.000     0.000     0.000       46   Kernel#instance_variable_defined?
    NaN      0.000     0.000     0.000     0.000        1   ActionDispatch::PerformanceTest#profile_options
    NaN      0.000     0.000     0.000     0.000        1   ActiveSupport::Testing::Performance#full_profile_options
    NaN      0.000     0.000     0.000     0.000        1   ActiveSupport::Testing::Performance::Performer#full_profile_options
-   NaN      0.000     0.000     0.000     0.000       75   Kernel#respond_to_missing?
-   NaN      0.000     0.000     0.000     0.000       98   Kernel#respond_to?
+   NaN      0.000     0.000     0.000     0.000       84   Kernel#respond_to_missing?
+   NaN      0.000     0.000     0.000     0.000      104   Kernel#respond_to?
    NaN      0.000     0.000     0.000     0.000        1   ActiveSupport::Testing::Performance::Profiler#run
 
 * indicates recursively called methods

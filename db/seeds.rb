@@ -6,7 +6,8 @@
   Post.create(
   	title: (0...8).map { (65 + rand(26)).chr}.join, 
   	author: (0...8).map { (65 + rand(26)).chr}.join,
-  	description: "Mustache pinterest fap blog authentic banh mi. Intelligentsia fap roof party, irony before they sold out godard normcore post-ironic pug meh. Mixtape pop-up chia master cleanse food truck lomo, single-origin coffee quinoa chicharrones biodiesel swag kitsch. Mlkshk 3 wolf moon before they sold out, 8-bit whatever +1 mumblecore waistcoat selfies YOLO venmo squid bitters. ",
-  	url_link: "http://www.globality.com"
+  	blurb: "Mustache pinterest fap blog authentic banh mi. Intelligentsia fap roof party, irony before they sold out godard normcore post-ironic pug meh. Mixtape pop-up chia master cleanse food truck lomo, single-origin coffee quinoa chicharrones biodiesel swag kitsch. Mlkshk 3 wolf moon before they sold out, 8-bit whatever +1 mumblecore waistcoat selfies YOLO venmo squid bitters. ",
+  	thumbnail_url: "Tropical_Beach_preview.jpg",
+  	details_url: "http://www.globality.com"
   )
 end

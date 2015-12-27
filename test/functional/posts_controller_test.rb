@@ -7,10 +7,10 @@ class PostsControllerTest < ActionController::TestCase
 
   test "should get index" do
     get :index
-    assert_response :success
-    assert_not_nil assigns(:posts)
-    assert_select '.box', 3
-    assert_select 'h2', /Title(.*)/
+    assert_response :success # successful response
+    assert_not_nil assigns(:posts) # controller handled posts
+    assert_select '.box', 3 # should have returned 3 posts
+    assert_select 'h2', /Title(.*)/ # checks post titles match the expected
   end
   
 =begin
