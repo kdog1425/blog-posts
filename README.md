@@ -52,7 +52,7 @@ See Gemfile
 
     rake test
 
-Note: I put in one functional test, and a few other testing ideas for an app with a bit more functianality in the commenting below it.
+Note: I put in one functional test, and a few other testing ideas for an app that would have a bit more functionality (those ideas are commented out).
 
 ### Who do I talk to? ###
 khenprice@gmail.com
