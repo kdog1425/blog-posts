@@ -7,7 +7,7 @@ See it live [here](https://kp-globality.herokuapp.com/).
 Tested for cross browser compatibility using [this online tool](https://www.browserling.com).
 
 
-### Specifications ###
+### Specifications (as given by Globality) ###
 
 The idea is to get a full-stack demo application going, with any technology you’d like to use.
 Deliverable should be runnable, e.g can be a deployed Heroku app or a codebase on GitHub, with a README showing how to run this. Extra points for unit-tests, code formatting/conventions, and comments around the code.
