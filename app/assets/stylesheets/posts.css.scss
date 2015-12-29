@@ -11,9 +11,8 @@
 	  width: 250px;
 	  height: auto;
 	  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
-	  text-align: center;
 	  border-radius: 17px;
-	  
+
 	  h2 {
 	  	font-size: 9px;
 	  	margin: 0;
@@ -21,18 +20,27 @@
 	  	a {
 			color: #474747;
 	  	}
+	  	text-align: center;
 	  }
 	  .user {
 	  	font-size: 7px;
 		padding: 1px;
 		margin: 0;
+		text-align: center;
 	  }
-	  .description {
-	    font-size: 10px;
+	  .blurb {
+	    text-align: left;
+	    font-size: 11px;
 	  	border-top: 1px solid #AAAAAA;
 		margin: 0;
-		height: 40px;
+		padding: 15px;
 		overflow:hidden;
+		padding: 5px;
+		a:link {
+		  text-decoration:none;
+		  color: #f7f7f7;
+		  font-size: 13px;
+		}
 	  }
 	  
 	}
