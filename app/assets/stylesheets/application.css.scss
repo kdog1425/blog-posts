@@ -19,10 +19,14 @@
  *= require 'masonry/transitions'
  */
 
+ // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
 h1 {
     text-align: center;
 	font-size: 28px;
-	margin-top: 40px;	
+	margin-top: 60px;	
 }
 
 #infscr-loading {
@@ -37,7 +41,10 @@ h1 {
 
 #infscr-loading img {
     margin-left: auto!important;
-    margin-right: auto!important; 
-    width:20px!important;
+    margin-right: auto!important;
+    margin-top: auto!important; 
+    margin-bottom: auto!important; 
+    
+
 }
 

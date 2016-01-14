@@ -12,5 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
 //= require jquery.inview.min.js
+//= require jquery
+//= require bootstrap-sprockets
+//= require jquery_ujs
+//= require turbolinks
+//= require_tree .

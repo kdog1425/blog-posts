@@ -13,6 +13,7 @@ gem 'jbuilder'
 gem 'rails-perftest'
 gem 'ruby-prof'
 gem 'masonry-rails', '~> 0.2.1'
+gem 'bootstrap-sass', '~> 3.3.1'
 
 group :development, :test do
      gem 'sqlite3'
