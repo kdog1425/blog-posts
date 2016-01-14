@@ -36,6 +36,7 @@ You can design the UI to your liking. at the very least each board item should f
 
         bundle # install packages
         rake db:migrate # build db
+        rake db:seed # generate mock data
         rails s # run local server
 
 then, if all went well, visit localhost:3000 in browser.
