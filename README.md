@@ -41,7 +41,7 @@ then, if all went well, visit localhost:3000 in browser.
 
 See 'config' folder
 
-### Dependencies ##3
+### Dependencies ###
 
 See Gemfile
 
